@@ -32,6 +32,6 @@ class Song
     genres_count.each { |genre|
       genres_count[genre] = i+1
     }
-    return
+    return genres_count
   end
 end
