@@ -34,6 +34,7 @@ class Song
         genres_count[genre] = i+1
       else
         i = 1
+      end
     }
     return genres_count
   end
