@@ -26,15 +26,15 @@ class Song
     @@genres.uniq
   end
   
-  def self.genres_count
-    genres_count = {}
+  def self.genre_count
+    genre_count = {}
     @@genres.each { |genre|
       if genre_count[genre]
-        genres_count[genre] += 1
+        genre_count[genre] += 1 
       else
-        genres_count[genre] = 1
+        genre_count[genre] = 1
       end
     }
-    return genres_count
+    genre_count
   end
 end
