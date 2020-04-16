@@ -27,14 +27,14 @@ class Song
   end
   
   def self.genre_count
-    genre_count = {}
+    retunrGenre = {}
     @@genres.each { |genre|
-      if genre_count[genre]
-        genre_count[genre] += 1 
+      if retunrGenre[genre]
+        retunrGenre[genre] += 1 
       else
-        genre_count[genre] = 1
+        retunrGenre[genre] = 1
       end
     }
-    genre_count
+    retunrGenre
   end
 end
