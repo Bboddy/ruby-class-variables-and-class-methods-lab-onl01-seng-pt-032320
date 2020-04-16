@@ -39,14 +39,14 @@ class Song
   end
   
   def self.artist_count
-    retunrArist = {}
-    @@artists.each { |artist|
-     if retunrArist[artist]
-       retunrArist[artist] += 1 
-     else
-       retunrArist = 1
-     end
+    retunrArtist = {}
+    @@genres.each { |genre|
+      if retunrGenre[genre]
+        retunrGenre[genre] += 1 
+      else
+        retunrGenre[genre] = 1
+      end
     }
-    retunrArist
+    retunrGenre
   end
 end
