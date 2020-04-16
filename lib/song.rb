@@ -37,4 +37,14 @@ class Song
     }
     retunrGenre
   end
+  
+  def self.artist_count
+    retunrArist = {}
+    @@artists.each { |artist|
+     if retunrArist[artist]
+       retunrArist[artist] += 1 
+     else
+       retunrArist = 1
+      end
+  end
 end
