@@ -29,7 +29,7 @@ class Song
   def self.genres_count
     returnHash = {}
     genres_count.each { |genre|
-      
+      genres_count[genre]
     }
   end
 end
