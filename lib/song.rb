@@ -27,6 +27,7 @@ class Song
   end
   
   def self.genres_count
+    returnHash = {}
     
   end
 end
