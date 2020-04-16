@@ -47,5 +47,6 @@ class Song
        retunrArist = 1
      end
     }
+    retunrArist
   end
 end
