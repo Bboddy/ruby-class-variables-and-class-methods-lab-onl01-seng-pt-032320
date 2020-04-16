@@ -46,5 +46,6 @@ class Song
      else
        retunrArist = 1
      end
+    }
   end
 end
